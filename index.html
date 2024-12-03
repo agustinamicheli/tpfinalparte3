@@ -1,0 +1,86 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+     />
+      <link rel="stylesheet" href="estilo.css">
+      <title>La isla a mediodía</title>
+  </head>
+  <body>
+     <nav class="border fixed split-nav">
+         <div class="nav-brand">
+         <h3><a href="#">La isla a mediodía</a></h3>
+         </div>
+         <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1">
+          <label for="collapsible1">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </label>
+          <div class="collapsible-body">
+            <ul class="inline">
+              <li><a href="#nosotras">Integrantes</a></li>
+              <li><a href="#producción">Proceso de producción</a></li>
+              <li><a href="#historia">Acerca de la historia</a></li>
+            </ul>
+          </div>
+         </div>
+      </nav>
+      <article>
+        <article>
+            <div class="paper container">
+            <img src="img/portadalibro.jpg" alt="Foto portada del libro" class="imagen-centrada">
+           </article>
+           <article>
+            <div class="row flex-spaces child-borders">
+                <label class="paper-btn margin" for="modal-1">JUGAR</label>
+             </div>
+             <input class="modal-state" id="modal-1" type="checkbox">
+             <div class="modal">
+                 <label class="modal-bg" for="modal-1"></label>
+                <div class="modal-body">
+                    <label class="btn-close" for="modal-1">X</label>
+                    <iframe src="tpfinalparte2/index.html" frameborder="0" width="645" height="485"></iframe>
+                </div>
+             </div>
+        </article>
+     <article id="nosotras">
+         <div class="card" style="width: 20rem;">
+              <img src="img/WhatsApp Image 2024-11-29 at 21.01.17.jpeg" alt="Foto de nosotras">
+
+             <div class="card-body">
+                  <h4 class ="card-text">¡Conocenos!</h4>
+                 <p class="card-text">Somos Guadalupe López y Agustina Micheli, estudiantes de primer año. Tenemos 19 y 18 años, y nos anotamos a esta carrera porque nos llamo la atencíon la variedad de cosas que incluia, y además la salida laboral. 
+                 </p>
+             </div>
+         </div>
+     </article>
+      <article> 
+          <div class="paper container">
+             <h2 id="producción">Proceso de producción</h2>
+             <p>Nuestro proyecto surgió a partir de la consigna dada por el profesor, elegir un cuento de Julio Cortazar. Por lo tanto empezamos la busqueda sobre todos los cuentos del autor, hasta que encontramos el indicado, "La isla a mediodía".
+             Este cuento lo elegimos porque tenia un final inesperado y con diferentes puntos de vista, lo que nos ayudo para pensar los otros final alternativos. </p>
+             <h4>Como hicimos la historia</h4>
+             <p>Arrancamos buscando el cuento para poder resumirlo, dividirlo y poder realizar el diagrama de flujo. También en ese momento creamos dos finales alternativos. Luego, cuando comenzamos a programar, hicimos las imagenes con ayuda de Adobe IA.
+             En el proceso de programar organizamos cada texto con su respectiva imagen e incluimos botones para la interacción, logrando asi un "Elige tu propia historia".
+             </p>
+             <h4>Como hicimos el juego</h4>
+             <p>Para crear el juego nos guiamos con el final original de la historia. Primero creamos un boceto de la idea y planteamos las instrucciones y su contenido. Luego en la programación definimos todo por pestañas: el avión como personaje principal y los obstaculos (pajaro,palmera,piedra) como sus enemigos.  Tuvimos algunas dificulades a la hora de realizar el trabajo, como por ejemplo que las colisiones sean exactas con la forma del enemigo y que los obstaculos se reinicien sin superponerse. 
+             A pesar de todo esto pudimos lograr un juego divertido y quedar conformes con el resultado. </p>
+         </div>
+         <div class="paper container">
+             <h2 id="historia">Acerca de la historia</h2>
+             <p>Marini es un asistente de vuelo que, durante sus trayectos, se obsesiona con una isla solitaria en el mar Egeo, visible solo brevemente desde su ventanilla. Cada vez que pasa sobre ella, siente una extraña conexión, aunque la isla es pequeña, deshabitada, y sin un propósito claro en su vida. A pesar de sus pensamientos recurrentes, Marini se distrae con otras ocupaciones, como su relación con Carla y varias aventuras pasajeras en diferentes ciudades, especialmente en Roma y Beirut. Sin embargo, la isla sigue en su mente.</p>
+             <p>Finalmente, Marini decide viajar a la isla, llamada Xiros, y una vez allí, se siente absorbido por su soledad y belleza natural. Decide quedarse, integrado con los pocos habitantes locales, viviendo de la pesca. No obstante, a pesar de su aparente satisfacción, algo dentro de él sigue siendo inquietante. En un momento, mientras reflexiona sobre su nueva vida en la isla, un avión pasa por encima y se estrella en el mar cerca de la costa. Marini rescata a un sobreviviente, pero este muere debido a sus heridas, lo que marca un giro fatal en su aventura. La muerte del hombre en la playa se convierte en un recordatorio de que la isla y sus pensamientos son, en última instancia, una ilusión, y Marini no puede escapar de su propia realidad.
+             </p>
+             <img src="img/isla.jpg" class="centrada" alt=""></a>
+         </div>
+      </article>
+  </body>
+</html>

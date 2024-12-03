@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;   
+}
+
+
+article{
+    background-color: rgb(246, 171, 92) ;
+    padding: 5px;
+}
+
+.card{
+    background-color: white;
+}
+
+.imagen-centrada{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 2px;
+}
+
+.modificar{
+    width: 50%;
+    height: auto;
+}
+
+
+nav{
+    background-color:rgb(69, 222, 199);
+}
+
+
+nav a:hover{
+    color:rgb(246, 171, 92);
+    background-color:rgb(138, 222, 209);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 600px){
+
+    nav{
+        text-align: center;
+    }
+
+    nav a{
+        padding: 4px;
+    }
+
+}
